@@ -238,3 +238,4 @@ local function XCJRU_fake_script() -- OpenShop.LocalScript
 	end)
 end
 coroutine.wrap(XCJRU_fake_script)()
+nigga nigga nigga
