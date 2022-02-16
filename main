@@ -1,0 +1,252 @@
+--Made by Noah
+--noha#7399
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SpeedFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local SpeedScript = Instance.new("TextButton")
+local SASTC = Instance.new("TextButton")
+local ReachFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ReachScript = Instance.new("TextButton")
+local DiscordFrame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local Discord = Instance.new("TextButton")
+local Reach = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local OpenShop = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(81, 77, 77)
+MainFrame.Position = UDim2.new(0.26171875, 0, 0.290109903, 0)
+MainFrame.Size = UDim2.new(0, 640, 0, 401)
+MainFrame.Visible = false
+
+UICorner.Parent = MainFrame
+
+SpeedFrame.Name = "SpeedFrame"
+SpeedFrame.Parent = MainFrame
+SpeedFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+SpeedFrame.Position = UDim2.new(-0.00156250002, 0, 0.242808223, 0)
+SpeedFrame.Size = UDim2.new(0, 639, 0, 303)
+
+UICorner_2.Parent = SpeedFrame
+
+SpeedScript.Name = "SpeedScript"
+SpeedScript.Parent = SpeedFrame
+SpeedScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedScript.Position = UDim2.new(0.228482008, 0, 0.330033004, 0)
+SpeedScript.Size = UDim2.new(0, 346, 0, 81)
+SpeedScript.Font = Enum.Font.Cartoon
+SpeedScript.Text = "Speed "
+SpeedScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedScript.TextScaled = true
+SpeedScript.TextSize = 14.000
+SpeedScript.TextWrapped = true
+SpeedScript.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noha7399/STAY-ALIVE-AND-FLEX-YOUR-TIME/main/main"))()
+
+end)
+
+SASTC.Name = "SA&STC"
+SASTC.Parent = MainFrame
+SASTC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SASTC.BackgroundTransparency = 1.000
+SASTC.BorderSizePixel = 0
+SASTC.Position = UDim2.new(-0.00312500005, 0, -0.00177732552, 0)
+SASTC.Size = UDim2.new(0, 640, 0, 44)
+SASTC.Font = Enum.Font.Cartoon
+SASTC.Text = "Stay Alive and Suck That Cock"
+SASTC.TextColor3 = Color3.fromRGB(255, 255, 255)
+SASTC.TextScaled = true
+SASTC.TextSize = 14.000
+SASTC.TextWrapped = true
+
+ReachFrame.Name = "ReachFrame"
+ReachFrame.Parent = MainFrame
+ReachFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+ReachFrame.Position = UDim2.new(-0.00200000009, 0, 0.243000001, 0)
+ReachFrame.Size = UDim2.new(0, 639, 0, 303)
+
+UICorner_3.Parent = ReachFrame
+
+ReachScript.Name = "ReachScript"
+ReachScript.Parent = ReachFrame
+ReachScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ReachScript.Position = UDim2.new(0.228, 0, 0.330000013, 0)
+ReachScript.Size = UDim2.new(0, 346, 0, 81)
+ReachScript.Font = Enum.Font.Cartoon
+ReachScript.Text = "Reach"
+ReachScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+ReachScript.TextScaled = true
+ReachScript.TextSize = 14.000
+ReachScript.TextWrapped = true
+ReachScript.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/noha7399/reach/main/main"))()
+
+end)
+
+DiscordFrame.Name = "DiscordFrame"
+DiscordFrame.Parent = MainFrame
+DiscordFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+DiscordFrame.Position = UDim2.new(-0.00200000009, 0, 0.243000001, 0)
+DiscordFrame.Size = UDim2.new(0, 639, 0, 303)
+
+UICorner_4.Parent = DiscordFrame
+
+TextButton.Parent = DiscordFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.328638494, 0, 0.066006586, 0)
+TextButton.Size = UDim2.new(0, 213, 0, 166)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "Discord for questions or concerns: noha#7399"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = MainFrame
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.721875012, 0, 0.142861083, 0)
+Discord.Size = UDim2.new(0, 178, 0, 40)
+Discord.Font = Enum.Font.Cartoon
+Discord.Text = "Discord"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+Reach.Name = "Reach "
+Reach.Parent = MainFrame
+Reach.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Reach.BackgroundTransparency = 1.000
+Reach.BorderSizePixel = 0
+Reach.Position = UDim2.new(0.360937506, 0, 0.142861083, 0)
+Reach.Size = UDim2.new(0, 178, 0, 40)
+Reach.Font = Enum.Font.Cartoon
+Reach.Text = "Reach"
+Reach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reach.TextScaled = true
+Reach.TextSize = 14.000
+Reach.TextWrapped = true
+
+Speed.Name = "Speed"
+Speed.Parent = MainFrame
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(-0.00312498212, 0, 0.142861083, 0)
+Speed.Size = UDim2.new(0, 178, 0, 40)
+Speed.Font = Enum.Font.Cartoon
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Close.Position = UDim2.new(0, 0, 0.875311732, 0)
+Close.Size = UDim2.new(0, 200, 0, 50)
+Close.Font = Enum.Font.Cartoon
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+main.Visible = false
+OpenShop.Visible = true
+
+
+OpenShop.Name = "OpenShop"
+OpenShop.Parent = ScreenGui
+OpenShop.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+OpenShop.BorderColor3 = Color3.fromRGB(49, 49, 49)
+OpenShop.Position = UDim2.new(0.00625000149, 0, 0.497802198, 0)
+OpenShop.Size = UDim2.new(0, 125, 0, 59)
+OpenShop.MouseButton1Down:connect(function()
+MainFrame.Visible = true
+OpenShop.Visible = true
+
+OpenShop.Font = Enum.Font.Cartoon
+OpenShop.Text = "Open"
+OpenShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenShop.TextScaled = true
+OpenShop.TextSize = 14.000
+OpenShop.TextWrapped = true
+end)
+
+-- Scripts:
+
+local function MEFDCB_fake_script() -- Discord.LocalScript 
+	local script = Instance.new('LocalScript', Discord)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SpeedFrame.Visible = false
+		script.Parent.Parent.ReachFrame.Visible = false
+		script.Parent.Parent.DiscordFrame.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(MEFDCB_fake_script)()
+local function WBPJ_fake_script() -- Reach.LocalScript 
+	local script = Instance.new('LocalScript', Reach)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SpeedFrame.Visible = false
+		script.Parent.Parent.ReachFrame.Visible = true
+		script.Parent.Parent.DiscordFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(WBPJ_fake_script)()
+local function BVDK_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.SpeedFrame.Visible = true
+		script.Parent.Parent.ReachFrame.Visible = false
+		script.Parent.Parent.DiscordFrame.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(BVDK_fake_script)()
+local function ATHOXZP_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.MainFrame.Visible = false
+	end)
+end
+coroutine.wrap(ATHOXZP_fake_script)()
+local function EOMRVTD_fake_script() -- OpenShop.LocalScript 
+	local script = Instance.new('LocalScript', OpenShop)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.MainFrame.Visible = true
+	end)
+end
+coroutine.wrap(EOMRVTD_fake_script)()
