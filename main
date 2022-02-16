@@ -1,31 +1,27 @@
---Made by Noah
---noha#7399
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
 local SpeedFrame = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
 local SpeedScript = Instance.new("TextButton")
 local SASTC = Instance.new("TextButton")
 local ReachFrame = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
 local ReachScript = Instance.new("TextButton")
 local DiscordFrame = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 local Discord = Instance.new("TextButton")
 local Reach = Instance.new("TextButton")
 local Speed = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local UICorner_6 = Instance.new("UICorner")
 local OpenShop = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.Workspace
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
@@ -33,17 +29,12 @@ MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromRGB(81, 77, 77)
 MainFrame.Position = UDim2.new(0.26171875, 0, 0.290109903, 0)
 MainFrame.Size = UDim2.new(0, 640, 0, 401)
-MainFrame.Visible = false
-
-UICorner.Parent = MainFrame
 
 SpeedFrame.Name = "SpeedFrame"
 SpeedFrame.Parent = MainFrame
 SpeedFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 SpeedFrame.Position = UDim2.new(-0.00156250002, 0, 0.242808223, 0)
 SpeedFrame.Size = UDim2.new(0, 639, 0, 303)
-
-UICorner_2.Parent = SpeedFrame
 
 SpeedScript.Name = "SpeedScript"
 SpeedScript.Parent = SpeedFrame
@@ -81,8 +72,6 @@ ReachFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 ReachFrame.Position = UDim2.new(-0.00200000009, 0, 0.243000001, 0)
 ReachFrame.Size = UDim2.new(0, 639, 0, 303)
 
-UICorner_3.Parent = ReachFrame
-
 ReachScript.Name = "ReachScript"
 ReachScript.Parent = ReachFrame
 ReachScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -97,15 +86,13 @@ ReachScript.TextWrapped = true
 ReachScript.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/noha7399/reach/main/main"))()
 
-end)
+end) 
 
 DiscordFrame.Name = "DiscordFrame"
 DiscordFrame.Parent = MainFrame
 DiscordFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 DiscordFrame.Position = UDim2.new(-0.00200000009, 0, 0.243000001, 0)
 DiscordFrame.Size = UDim2.new(0, 639, 0, 303)
-
-UICorner_4.Parent = DiscordFrame
 
 TextButton.Parent = DiscordFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -173,9 +160,8 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 Close.MouseButton1Down:connect(function()
-main.Visible = false
+MainFrame.Visible = false
 OpenShop.Visible = true
-
 
 OpenShop.Name = "OpenShop"
 OpenShop.Parent = ScreenGui
@@ -183,21 +169,21 @@ OpenShop.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 OpenShop.BorderColor3 = Color3.fromRGB(49, 49, 49)
 OpenShop.Position = UDim2.new(0.00625000149, 0, 0.497802198, 0)
 OpenShop.Size = UDim2.new(0, 125, 0, 59)
-OpenShop.MouseButton1Down:connect(function()
-MainFrame.Visible = true
-OpenShop.Visible = true
-
 OpenShop.Font = Enum.Font.Cartoon
 OpenShop.Text = "Open"
 OpenShop.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenShop.TextScaled = true
 OpenShop.TextSize = 14.000
 OpenShop.TextWrapped = true
-end)
+OpenShop.MouseButton1Down:connect(function()
+MainFrame.Visible = true
+OpenShop.Visible = true
+
+
 
 -- Scripts:
 
-local function MEFDCB_fake_script() -- Discord.LocalScript 
+local function SBEXD_fake_script() -- Discord.LocalScript 
 	local script = Instance.new('LocalScript', Discord)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -207,8 +193,8 @@ local function MEFDCB_fake_script() -- Discord.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MEFDCB_fake_script)()
-local function WBPJ_fake_script() -- Reach.LocalScript 
+coroutine.wrap(SBEXD_fake_script)()
+local function JCIX_fake_script() -- Reach.LocalScript 
 	local script = Instance.new('LocalScript', Reach)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -218,8 +204,8 @@ local function WBPJ_fake_script() -- Reach.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(WBPJ_fake_script)()
-local function BVDK_fake_script() -- Speed.LocalScript 
+coroutine.wrap(JCIX_fake_script)()
+local function RVMYZPE_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -229,8 +215,8 @@ local function BVDK_fake_script() -- Speed.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(BVDK_fake_script)()
-local function ATHOXZP_fake_script() -- Close.LocalScript 
+coroutine.wrap(RVMYZPE_fake_script)()
+local function MECGV_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local player = game.Players.LocalPlayer
@@ -239,8 +225,8 @@ local function ATHOXZP_fake_script() -- Close.LocalScript
 		player.PlayerGui.ScreenGui.MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(ATHOXZP_fake_script)()
-local function EOMRVTD_fake_script() -- OpenShop.LocalScript 
+coroutine.wrap(MECGV_fake_script)()
+local function XCJRU_fake_script() -- OpenShop.LocalScript 
 	local script = Instance.new('LocalScript', OpenShop)
 
 	local player = game.Players.LocalPlayer
@@ -249,4 +235,4 @@ local function EOMRVTD_fake_script() -- OpenShop.LocalScript
 		player.PlayerGui.ScreenGui.MainFrame.Visible = true
 	end)
 end
-coroutine.wrap(EOMRVTD_fake_script)()
+coroutine.wrap(XCJRU_fake_script)()
