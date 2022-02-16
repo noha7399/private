@@ -29,6 +29,8 @@ MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromRGB(81, 77, 77)
 MainFrame.Position = UDim2.new(0.26171875, 0, 0.290109903, 0)
 MainFrame.Size = UDim2.new(0, 640, 0, 401)
+MainFrame.Active = true
+MainFrame.Draggable = true
 
 SpeedFrame.Name = "SpeedFrame"
 SpeedFrame.Parent = MainFrame
